@@ -11,12 +11,11 @@ using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 
-namespace Tabuada
+namespace Tabuada.Views
 {
-    public partial class MainPage : PhoneApplicationPage
+    public partial class Home : PhoneApplicationPage
     {
-        // Constructor
-        public MainPage()
+        public Home()
         {
             InitializeComponent();
         }
