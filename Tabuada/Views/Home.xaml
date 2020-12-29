@@ -23,12 +23,12 @@
             <controls:PanoramaItem Header="tabuar">
                 <StackPanel>
                     <TextBlock><Run Text="N"/><Run Text="ú"/><Run Text="mero para tabuar"/></TextBlock>
-                    <TextBox Name="TextBox_NumCalc"></TextBox>
+                    <TextBox Name="TextBox_NumCalc" />
 
                     <TextBlock>Quantas vezes tabuar</TextBlock>
                     <TextBox Name="TextBox_NumHowManyTimes"></TextBox>
                     
-                    <Button x:Name="Btn_calc" Content="Tabuar" HorizontalAlignment="Center" Padding="30,20" VerticalAlignment="Center"/>
+                    <Button x:Name="Btn_calc" Content="Tabuar" HorizontalAlignment="Center" Padding="30,20" VerticalAlignment="Center" Click="Btn_calc_Click" />
                 </StackPanel>
             </controls:PanoramaItem>
 
